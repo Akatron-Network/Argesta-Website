@@ -1,0 +1,6 @@
+# robots.txt İHS Telekom tarafından oluşturuldu
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /img/
+Disallow: /projeler/
+Sitemap: https://argesta.com.tr/sitemap.xml

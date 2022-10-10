@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARGESTA | Ana Sayfa</title>
+
+    <meta name="description" content="Fevziçakmak Mah. Teksan Sanayi Sit. 10758. Sokak 25/F Karatay / KONYA / TÜRKİYE / Telefon: +90 332 248 00 42 / E-Posta: info@argesta.com.tr">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/anasayfa.css">
+    <script src="https://kit.fontawesome.com/e824c114c6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo/logo-title.png" type="image/x-icon">
+    <link rel=”apple-touch-icon” href=”img/apple-touch-icon.png”>
+
+    <link rel="canonical" href="https://argesta.com.tr/">
+
+    <meta name="author" content="Melih Can Oğuz">
+    <meta name="robots" content="index,follow" />
+    <meta name="publisher" content="Akatron Newtork" />
+
+</head>
+
+<body>
+
+  <div id="loading-screen"
+    style="
+      position: fixed; 
+      transition: .5s; 
+      width: 100%; 
+      height: 100%; 
+      background-color: #007cb0; 
+      z-index: 999999; 
+      top: 0; 
+      text-align: center; 
+      padding: 50px; 
+      color: white;
+    ">
+
+    <img style="opacity: 0.5; width: 40%;" src="../img/arg-bg2.png" alt="Yükleniyor" title="Yükleniyor">
+    <h2>Yükleniyor...</h2>
+
+    <script>
+      window.addEventListener('load', (event) => {
+        document.getElementById("loading-screen").style.opacity = "0";
+        setTimeout(function(){ 
+          document.getElementById("loading-screen").style.display = "none";
+        }, 2500);
+      });
+    </script>
+
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: rgb(255, 255, 255);">
+    <div class="container">
+        <div class="col-xl-5 col-lg-4 col-9">
+          <a class="navbar-brand" href="../index.html">
+            <img id="nav-logo1" src="../img/logo/logo2.png" alt="Argesta Logo" title="Argesta Logo">
+          </a>
+          <a class="navbar-brand" href="../index.html">
+            <img id="nav-logo2" src="../img/logo/logo2yazi.png" alt="Argesta Logo" title="Argesta Logo">
+          </a>
+        </div>
+          
+      <div class="col-xl-8 col-lg-9 col-3">
+        <button class="navbar-toggler" type="button" style="float: right; margin-right: 15%;" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse md_nav" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active navbarfontsize hvr-underline-from-left" aria-current="page" href="../index.html">
+                <strong>ANA SAYFA</strong> 
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active navbarfontsize hvr-underline-from-left" href="../kurumsal.html"><strong>KURUMSAL</strong></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active navbarfontsize hvr-underline-from-left dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><strong>MAKİNELER</strong></a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                <li class="nav-item dropdown-sub">
+                  <a class="nav-link active hvr-icon-forward dropdown-toggle" href="#" id="navbarDropdown-sub" role="button" data-bs-toggle="dropdown-sub" aria-expanded="false" style="font-size: 13px; padding: 4px 8px !important;"><i class="fas fa-chevron-circle-right hvr-icon" style="padding-right: 7px;"></i>PALET STREÇLEME MAKİNELERİ</a>
+                  <ul class="dropdown-menu-sub" aria-labelledby="navbarDropdown-sub">
+                    <li><a class="dropdown-item hvr-icon-forward" href="../urun/tek-motorlu-palet-strecleme-makinesi.html"><i class="fas fa-chevron-circle-right hvr-icon" style="padding-right: 7px;"></i>TEK MOTOR GERDİRMELİ TİP</a></li>
+                    <li><a class="dropdown-item hvr-icon-forward" href="../urun/cift-motorlu-palet-strecleme-makinesi.html"><i class="fas fa-chevron-circle-right hvr-icon" style="padding-right: 7px;"></i>ÇİFT MOTOR GERDİRMELİ TİP</a></li>
+                    <li><a class="dropdown-item hvr-icon-forward" href="../urun/ust-baskili-palet-strecleme-makinesi.html"><i class="fas fa-chevron-circle-right hvr-icon" style="padding-right: 7px;"></i>ÜSTTEN BASKILI TİP</a></li>
+                    <li><a class="dropdown-item hvr-icon-forward" href="../urun/koli-strecleme-makinesi.html"><i class="fas fa-chevron-circle-right hvr-icon" style="padding-right: 7px;"></i>KOLİ STREÇLEME</a></li>
+                  </ul>
+                </li>
+
+                <li><a class="dropdown-item hvr-icon-forward" href="../urun/koli-bantlama-makinesi.html"><i class="fas fa-chevron-circle-right hvr-icon" style="padding-right: 7px;"></i>KOLİ BANTLAMA MAKİNESİ</a></li>
+                <li><a class="dropdown-item hvr-icon-forward" href="../urun/shrink-makinesi.html"><i class="fas fa-chevron-circle-right hvr-icon" style="padding-right: 7px;"></i>SHRINK TÜNELİ</a></li>
+                <li><a class="dropdown-item hvr-icon-forward" href="../urun/yatay-strecleme-makinesi.html"><i class="fas fa-chevron-circle-right hvr-icon" style="padding-right: 7px;"></i>YATAY STREÇLEME MAKİNESİ</a></li>
+                <li><a class="dropdown-item hvr-icon-forward" href="../urun/hortum-strecleme-makinesi.html"><i class="fas fa-chevron-circle-right hvr-icon" style="padding-right: 7px;"></i>HORTUM STREÇLEME MAKİNESİ</a></li>
+                <li><a class="dropdown-item hvr-icon-forward" href="../urun/konveyor.html"><i class="fas fa-chevron-circle-right hvr-icon" style="padding-right: 7px;"></i>KONVEYÖRLER</a></li>
+                <li><a class="dropdown-item hvr-icon-forward" href="../urun/robot-kol.html"><i class="fas fa-chevron-circle-right hvr-icon" style="padding-right: 7px;"></i>ROBOTİK PALETLEME HATTI</a></li>
+                <li><a class="dropdown-item hvr-icon-forward" href="../urun/oto-sivi-dolum.html"><i class="fas fa-chevron-circle-right hvr-icon" style="padding-right: 7px;"></i>OTOMATİK SIVI DOLUM MAKİNESİ</a></li>
+                <li><a class="dropdown-item hvr-icon-forward" href="../urun/manuel-sivi-dolum-makinesi.html"><i class="fas fa-chevron-circle-right hvr-icon" style="padding-right: 7px;"></i>MANUEL SIVI DOLUM MAKİNESİ</a></li>
+                <li><a class="dropdown-item hvr-icon-forward" href="../urun/kapak-kapatma-makineleri.html"><i class="fas fa-chevron-circle-right hvr-icon" style="padding-right: 7px;"></i>KAPAK SIKMA HATTI</a></li>
+                <li><a class="dropdown-item hvr-icon-forward" href="../urun/etiketleme-makineleri.html"><i class="fas fa-chevron-circle-right hvr-icon" style="padding-right: 7px;"></i>ETİKETLEME HATTI</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active navbarfontsize hvr-underline-from-left" href="../projeler.html"><strong>PROJELER</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active navbarfontsize hvr-underline-from-left" href="../catalog.html"><strong>KATALOG</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active navbarfontsize hvr-underline-from-left" href="../iletisim.html"><strong>İLETİŞİM</strong></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active" data-bs-interval="6000">
+        <img src="img/slider/s3.webp" class="d-block w-100" style="max-height: 100%;" title="Tam Otomatik Sıvı Dolum Hattı" alt="Tam Otomatik Sıvı Dolum Hattı">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="6000">
+        <img src="img/slider/s1.webp" class="d-block w-100" style="max-height: 100%;" title="Robotik Paletleme Hattı" alt="Robotik Paletleme Hattı">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="6000">
+        <img src="img/slider/s2.webp" class="d-block w-100" style="max-height: 100%;" title="Dokunmatik Kullanıcı Arayüzü" alt="Dokunmatik Kullanıcı Arayüzü">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="6000">
+        <img src="img/slider/s5.webp" class="d-block w-100" style="max-height: 100%;" title="Palet Streçleme Makineleri" alt="Palet Streçleme Makineleri">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="6000">
+        <img src="img/slider/s6.webp" class="d-block w-100" style="max-height: 100%;" title="Palet Streçleme Makinesi , Shrink Makinesi , Hortum Streçleme Makinesi , Koli Bantlama Makinesi" alt="Palet Streçleme Makinesi , Shrink Makinesi , Hortum Streçleme Makinesi , Koli Bantlama Makinesi">
+      </div> 
+    </div>
+  </div>
+  
+  <div>
+    <h2 id="pro-title">
+      MAKİNELERİMİZ
+    </h2>
+  </div>
+
+  <div class="slide-arrow">
+    <button onclick="auto_slide('L')" type="button" class="btn btn-link"><i class="fas fa-chevron-left"></i></button>
+  </div>
+
+  <div class="slide-arrow" style="transform: scaleX(-1); right: 0px;">
+    <button" onclick="auto_slide('R')" type="button" class="btn btn-link"><i class="fas fa-chevron-left"></i></button>
+  </div>
+
+  <div class="container-fluid" id="uruns">
+
+
+    <div class="st-urunlist">
+      <div class="card-ust">
+        <div class="pro-card" onclick="detaygetir(1,true)"><img class="pro-card-img" src="img/urun-tanitim/cift-motor-palet-strecleme-makinesi.webp" title="Çift Motor Gerdirmeli Palet Streçleme Makinesi" alt="Çift Motor Gerdirmeli Palet Streçleme Makinesi"></div>
+      </div>
+      <!-- <div class="card-ust">
+        <div class="pro-card" onclick="detaygetir(2,true)"><img class="pro-card-img" src="img/urun-tanitim/koli-strecleme-makinesi.webp" title="Kolon Tip Palet Streçleme Makinesi" alt="Kolon Tip Palet Streçleme Makinesi"></div>
+      </div> -->
+      <div class="card-ust">
+        <div class="pro-card" onclick="detaygetir(2,true)"><img class="pro-card-img" src="img/urun-tanitim/hortum-strecleme-makinesi.webp" title="Hortum Streçleme Makinesi" alt="Hortum Streçleme Makinesi"></div>
+      </div>
+      <div class="card-ust">
+        <div class="pro-card" onclick="detaygetir(3,true)"><img class="pro-card-img" src="img/urun-tanitim/koli-bantlama-makinesi.webp" title="Koli Bantlama Makinesi" alt="Koli Bantlama Makinesi"></div>
+      </div>
+      <!--
+      <div class="card-ust">
+        <div class="pro-card" onclick="detaygetir(5,true)"><img class="pro-card-img" src="img/urun-tanitim/konveyor.webp" title="Konveyör" alt="Konveyör"></div>
+      </div>
+      -->
+      <div class="card-ust">
+        <div class="pro-card" onclick="detaygetir(4,true)"><img class="pro-card-img" src="img/urun-tanitim/yatay-strecleme-makinesi.webp" title="Yatay Streçleme Makinesi" alt="Yatay Streçleme Makinesi"></div>
+      </div>
+      <div class="card-ust">
+        <div class="pro-card" onclick="detaygetir(5,true)"><img class="pro-card-img" src="img/urun-tanitim/manuel-sivi-dolum-makinesi.webp" title="Manuel Sıvı Dolum Makinesi" alt="Manuel Sıvı Dolum Makinesi"></div>
+      </div>
+      <div class="card-ust">
+        <div class="pro-card" onclick="detaygetir(6,true)"><img class="pro-card-img" src="img/urun-tanitim/shrink-makinesi.webp" title="Shrink Makinesi" alt="Shrink Makinesi"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid urun-tanitim-arka">
+    
+    <img class="urun-tanitim-bg" src="img/logo/logo2.png" title="Argesta Logo" alt="Argesta Logo">
+
+    <div class="row" id="detay_1" style="display: none;">
+      <div class="col-md-6 col-xs-12 detaya" id="detay1a"> 
+        <img src="img/urun-tanitim/cift-motor-palet-strecleme-makinesi.webp" title="Çift Motor Gerdirmeli Palet Streçleme Makinesi" alt="Çift Motor Gerdirmeli Palet Streçleme Makinesi" class="urun-tanitim-foto">
+      </div>
+      <div class="col-md-6 col-xs-12 detayb" id="detay1b" align="right"> 
+        <div class="urun-tanitim-kutu">
+          <h2>PALET STREÇLEME MAKİNESİ</h2>
+          <p>
+            Paletlenmiş farklı özellik ve yüksekliklerdeki ürünlerin, isteğe bağlı olarak tam otomatik veya yarı otomatik olarak streç film ile ambalajlamaktadır. Böylece paletlenmiş ürünlerin ambalaj maliyeti azalır ve zamandan tasarruf sağlanmaktadır. Nakliye ve depolama esnasında toz, Rutubet, devrilme vb zararlardan ürünü korumaktadır.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="row" id="detay_2" style="display: none;">
+      <div class="col-md-6 col-xs-12 detaya" id="detay2a"> 
+        <img src="img/urun-tanitim/koli-strecleme-makinesi.webp" title="Kolon Tip Palet Streçleme Makinesi" alt="Kolon Tip Palet Streçleme Makinesi" class="urun-tanitim-foto">
+      </div>
+      <div class="col-md-6 col-xs-12 detayb" id="detay2b" align="right"> 
+        <div class="urun-tanitim-kutu">
+          <h2>KOLİ STREÇLEME MAKİNESİ</h2>
+          <p>
+            Koli, bavul gibi farklı özellik ve yüksekliklerdeki ürünlerin, isteğe bağlı olarak tam otomatik veya yarı otomatik olarak streç film ile ambalajlamaktadır. Böylece ürünlerin ambalaj maliyeti azalır ve zamandan tasarruf sağlanmaktadır. Nakliye ve depolama esnasında toz, Rutubet, devrilme vb. zararlardan ürünü korumaktadır.
+          </p>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="row" id="detay_2" style="display: none;">
+      <div class="col-md-6 col-xs-12 detaya" id="detay2a"> 
+        <img src="img/urun-tanitim/hortum-strecleme-makinesi.webp" title="Hortum Streçleme Makinesi" alt="Hortum Streçleme Makinesi" class="urun-tanitim-foto">
+      </div>
+      <div class="col-md-6 col-xs-12 detayb" id="detay2b" align="right"> 
+        <div class="urun-tanitim-kutu">
+          <h2>HORTUM STREÇLEME MAKİNESİ</h2>
+          <p>
+            Sarılmış farklı özellik ve çaplardaki ürünlerin, isteğe bağlı olarak tam otomatik veya yarı otomatik olarak streç film ile ambalajlamaktadır. Böylece ürünlerin ambalaj maliyeti azalır ve zamandan tasarruf salanmaktadır. Nakliye ve depolama esnasında toz, Rutubet, yağmur vb zararlardan ürünü korumaktadır.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="detay_3" style="display: none;">
+      <div class="col-md-6 col-xs-12 detaya" id="detay3a"> 
+        <img src="img/urun-tanitim/koli-bantlama-makinesi.webp" title="Koli Bantlama Makinesi" alt="Koli Bantlama Makinesi" class="urun-tanitim-foto">
+      </div>
+      <div class="col-md-6 col-xs-12 detayb" id="detay3b" align="right"> 
+        <div class="urun-tanitim-kutu">
+          <h2>KOLİ BANTLAMA MAKİNESİ</h2>
+          <p>
+            Muhtelif koli ebatlarına göre en ve yükseklik ayarı yapılarak kolilerin alt ve üstlerini aynı anda ya da ayrı ayrı bantlama özelliğine sahiptir.
+          </p>
+        </div>
+      </div>
+    </div>
+
+<!--
+    <div class="row" id="detay_5" style="display: none;">
+      <div class="col-md-6 col-xs-12 detaya" id="detay5a"> 
+        <img src="img/urun-tanitim/konveyor.jpg" alt="" class="urun-tanitim-foto">
+      </div>
+      <div class="col-md-6 col-xs-12 detayb" id="detay5b" align="right"> 
+        <div class="urun-tanitim-kutu">
+          <div style="padding-top: 20%;">
+            <h2>KONVEYÖRLER</h2>
+            <p>
+              Spesifik ihtiyaçlarınız doğrultusunda özel makina tasarımı, üretim tesisleri (baştan sona tüm proses) tasarımı, projelendirmesi, imalatını gerçekleştiren ve ayrıca mevcut makinalarınız için revizyonlar üreten firmamız, tasarımdan teslim aşamasına kadar tüm üretim süreci boyunca ihtiyaçlarınızı asli önceliğimiz sayarak yanınızda olmaya devam edecektir.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+-->
+
+    <div class="row" id="detay_4" style="display: none;">
+      <div class="col-md-6 col-xs-12 detaya" id="detay4a"> 
+        <img src="img/urun-tanitim/yatay-strecleme-makinesi.webp" title="Yatay Streçleme Makinesi" alt="Yatay Streçleme Makinesi" class="urun-tanitim-foto">
+      </div>
+      <div class="col-md-6 col-xs-12 detayb" id="detay4b" align="right"> 
+        <div class="urun-tanitim-kutu">
+          <h2>YATAY STREÇLEME MAKİNESİ</h2>
+          <p>
+            Kapı, mobilya, boru, profil, levha ve benzer ürünlerin, isteğe bağlı olarak tam otomatik veya yarı otomatik olarak streç film ile ambalajlamaktadır. Böylece paletlenmiş ürünlerin ambalaj maliyeti azalır ve zamandan tasarruf salanmaktadır. Nakliye ve depolama esnasında toz, Rutubet, devrilme vb zararlardan ürünü korumaktadır.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="detay_5" style="display: none;">
+      <div class="col-md-6 col-xs-12 detaya" id="detay5a"> 
+        <img src="img/urun-tanitim/manuel-sivi-dolum-makinesi.webp" title="Manuel Sıvı Dolum Makinesi" alt="Manuel Sıvı Dolum Makinesi" class="urun-tanitim-foto">
+      </div>
+      <div class="col-md-6 col-xs-12 detayb" id="detay5b" align="right"> 
+        <div class="urun-tanitim-kutu">
+          <h2>MANUEL SIVI DOLUM MAKİNESİ</h2>
+          <p>
+            Bir pedal yardımıyla kullanılabilen çift nozullu sıvı dolum makinesi. Ayarlanabilir yükseklik ve dayama apartını kendi şasesinde barındırır.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row" id="detay_6" style="display: none;">
+      <div class="col-md-6 col-xs-12 detaya" id="detay6a"> 
+        <img src="img/urun-tanitim/shrink-makinesi.webp" title="Shrink Makinesi" alt="Shrink Makinesi" class="urun-tanitim-foto">
+      </div>
+      <div class="col-md-6 col-xs-12 detayb" id="detay6b" align="right"> 
+        <div class="urun-tanitim-kutu">
+          <h2>SHRINK TÜNELİ</h2>
+          <p>
+            Paketlenmek istenen ürün ya da ürünlerin esnek özel plastik filmle sarılması, daha sonra filmin ısı etkisiyle büzüştürülerek, ürünü saran ya da birden çok ürünü bir arada tutan bir ambalajın  oluşturulması işleminde kullanılan makinedir.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <div style="height: 2px; width: 100%; background-color:rgba(0, 0, 0, 0.2); margin-bottom: 50px;"></div>
+
+
+  <div class="container-fluid arg-tanitim-arka">
+    <img src="img/logo/logo2.png" alt="Argesta Logo" title="Argesta Logo" id="int-img1">
+    <div class="row">
+      <div class="col-xl-6 col-lg-12 col-md-12 col-xs-12 ">
+        <div class="urun-tanitim-kutu">
+          <div class="row justify-content-end">
+            <div class="col-xl-9 col-lg-12 int-title-sub">
+              <h2 id="int-title">
+                BİZ KİMİZ? 
+              </h2>
+            </div>
+          </div>
+          <div id="int-text"> İşimizde Profesyoneliz; Yapılanmalarımızla fark yaratır, işimizi en üst normlarda kurumsal uygulamalar ile yaparak iş yapış şeklimiz ile rekabet gücümüzü artırırız.
+            Kaliteli Hizmet Anlayışı ve Başarı Hedefli Çalışma; Çağın gereksinimlerini takip ederek yeni girişimlere, yaratıcı fikirler ile destek vererek kaliteli hizmet anlayışımızı oluştururuz. Kurum hedefimizi ve yolumuzu bilir bu yolda yüksek motivasyon ile başarıya ulaşırız.
+            Gelişimi Destekler ve Gelişim Destekli Çalışırız; Yenilikçi ve gelişime açık bir iş kültürüne sahibiz. Gelişim destekli çalışma ruhu ile işimize kenetleniriz.
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6 col-lg-12 col-md-12 col-xs-12 int-img-media" style="position: relative; text-align: center;">
+        <img src="img/argesta-sivi-dolum-paneli.webp" alt="Argesta Sıvı Dolum Paneli" title="Argesta Sıvı Dolum Paneli" id="int-img2">
+      </div>
+    </div> 
+  </div>
+
+  
+  <div style="height: 2px; width: 100%; background-color:rgba(0, 0, 0, 0.2);"></div>
+
+
+  <div class="container-fluid">
+    <h1 id="bitenproje-title">
+      TAMAMLADIĞIMIZ PROJELERDEN ÖRNEKLER
+    </h1>
+    <div class="row" style="justify-content: center; padding-bottom: 50px;">
+
+      <div class="bitenproje-card" onclick="$('#s1').modal('show');">
+        <img src="img/tamam-proje/robotik-paketleme-hatti.jpg" alt="Robotik Paletleme Hattı" title="Robotik Paletleme Hattı" class="bpc-img">
+        <div class="bpc-title">
+          <h2>Robotik Paketleme Hattı</h2>
+        </div>
+      </div>
+      <div class="modal fade" id="s1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="img/tamam-proje/robotik-paketleme-hatti.jpg" alt="Robotik Paletleme Hattı" title="Robotik Paletleme Hattı" width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bitenproje-card" onclick="$('#s2').modal('show');">
+        <img src="img/tamam-proje/gida-konveyor-hatti.jpg" alt="Gıda Konveyör Hattı" title="Gıda Konveyör Hattı" class="bpc-img">
+        <div class="bpc-title">
+          <h2>Gıda Konveyör Hattı</h2>
+        </div>
+      </div>
+      <div class="modal fade" id="s2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="img/tamam-proje/gida-konveyor-hatti.jpg" alt="Gıda Konveyör Hattı" title="Gıda Konveyör Hattı" width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bitenproje-card" onclick="$('#s3').modal('show');">
+        <img src="img/tamam-proje/tam-otomatik-sivi-dolum-hatti.jpg" alt="Tam Otomatik Sıvı Dolum Hattı" title="Tam Otomatik Sıvı Dolum Hattı" class="bpc-img">
+        <div class="bpc-title">
+          <h2>Tam Otomatik Sıvı Dolum Hattı</h2>
+        </div>
+      </div>
+      <div class="modal fade" id="s3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="img/tamam-proje/tam-otomatik-sivi-dolum-hatti.jpg" alt="Tam Otomatik Sıvı Dolum Hattı" title="Tam Otomatik Sıvı Dolum Hattı" width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="bitenproje-card" onclick="$('#s4').modal('show');">
+        <img src="img/tamam-proje/kapak-kapatma-makinesi.jpg" alt="Kapak Kapatma Makinesi" title="Kapak Kapatma Makinesi" class="bpc-img">
+        <div class="bpc-title">
+          <h2>Kapak Kapatma Makinesi</h2>
+        </div>
+      </div>
+      <div class="modal fade" id="s4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="img/tamam-proje/kapak-kapatma-makinesi.jpg" alt="Kapak Kapatma Makinesi" title="Kapak Kapatma Makinesi" width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bitenproje-card" onclick="$('#s5').modal('show');">
+        <img src="img/tamam-proje/montaj-hatti.jpg" alt="Montaj Hattı" title="Montaj Hattı" class="bpc-img">
+        <div class="bpc-title">
+          <h2>Montaj Hattı</h2>
+        </div>
+      </div>
+      <div class="modal fade" id="s5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="img/tamam-proje/montaj-hatti.jpg" alt="Montaj Hattı" title="Montaj Hattı" width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bitenproje-card" onclick="$('#s6').modal('show');">
+        <img src="img/tamam-proje/cam-tasima-konveyor-hatti.jpg" alt="Cam Taşıma Konveyör Hattı" title="Cam Taşıma Konveyör Hattı" class="bpc-img">
+        <div class="bpc-title">
+          <h2>Cam Taşıma Konveyör Hattı</h2>
+        </div>
+      </div>
+      <div class="modal fade" id="s6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="img/tamam-proje/cam-tasima-konveyor-hatti.jpg" alt="Cam Taşıma Konveyör Hattı" title="Cam Taşıma Konveyör Hattı" width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bitenproje-card" onclick="$('#s7').modal('show');">
+        <img src="img/tamam-proje/pelet-hatti.jpg" alt="Pelet Hattı" title="Pelet Hattı" class="bpc-img">
+        <div class="bpc-title">
+          <h2>Pelet Hattı</h2>
+        </div>
+      </div>
+      <div class="modal fade" id="s7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-body">
+              <img src="img/tamam-proje/pelet-hatti.jpg" alt="Pelet Hattı" title="Pelet Hattı" width="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="icon-bar">    
+    <a href="https://www.facebook.com/argestamakine42/" rel=”nofollow” class="facebook" target="_blank"><i class="fab fa-facebook-square fa-lg color"></i></a>
+    <a href="https://www.instagram.com/argestamakine/" rel=”nofollow” class="instagram" target="_blank"><i class="fab fa-instagram-square fa-lg color"></i></a>
+    <a href="https://twitter.com/argestamakine" rel=”nofollow” class="twitter" target="_blank" ><i class="fab fa-twitter-square fa-lg color"></i></a>
+    <a href="https://www.youtube.com/c/argestamakine" rel=”nofollow” class="youtube" target="_blank"><i class="fab fa-youtube-square fa-lg color"></i></a>
+  </div>
+  
+  <footer>
+    <div class="footer-alt">
+      <div class="container" style="background-color: #2d2d2dab;">
+        <div class="row justify-content-between">
+          <div class="col-4" style="text-align: left; padding-left: 10%;">
+            <h5 style="color: #1277B2; text-shadow: 2px 1px 1px #007bb07e; font-size: 21px;">HIZLI ERİŞİM</h5>
+            <br>
+            <ul id="liste">
+              <a href="../index.html" style="text-decoration: none !important; color: #FFFFFF;" ><li class="list-eleman">Ana Sayfa</li></a>
+              <a href="../kurumsal.html" style="text-decoration: none !important; color: #FFFFFF;" ><li class="list-eleman">Kurumsal</li></a>
+              <a class="nav-link dropdown-toggle" style="padding: 0;"  id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+                Makineler
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                  <li><a class="dropdown-item" href="../urun/tek-motorlu-palet-strecleme-makinesi.html">Tek Motor Gerdirmeli Tip Palet Streçleme Makinesi</a></li>
+                  <li><a class="dropdown-item" href="../urun/cift-motorlu-palet-strecleme-makinesi.html">Çift Motor Gerdirmeli Palet Streçleme Makinesi</a></li>
+                  <li><a class="dropdown-item" href="../urun/ust-baskili-palet-strecleme-makinesi.html">Üstten Baskılı Tip Palet Streçleme Makinesi</a></li>
+                  <li><a class="dropdown-item" href="../urun/koli-strecleme-makinesi.html">Koli Streçleme Makinesi</a></li>
+                  <li><a class="dropdown-item" href="../urun/koli-bantlama-makinesi.html">Koli Bantlama Makinesi</a></li>
+                  <li><a class="dropdown-item" href="../urun/shrink-makinesi.html">Shrink Tüneli</a></li>
+                  <li><a class="dropdown-item" href="../urun/yatay-strecleme-makinesi.html">Yatay Streçleme Makinesi</a></li>
+                  <li><a class="dropdown-item" href="../urun/hortum-strecleme-makinesi.html">Hortum Streçleme Makinesi</a></li>
+                  <li><a class="dropdown-item" href="../urun/konveyor.html">Konveyörler</a></li>
+                  <li><a class="dropdown-item" href="../urun/robot-kol.html">Robotik Paletleme Hattı</a></li>
+                  <li><a class="dropdown-item" href="../urun/oto-sivi-dolum.html">Otomatik Sıvı Dolum Makinesi</a></li>
+                  <li><a class="dropdown-item" href="../urun/manuel-sivi-dolum-makinesi.html">Manuel Sıvı Dolum Makinesi</a></li>
+                  <li><a class="dropdown-item" href="../urun/kapak-kapatma-makineleri.html">Kapak Sıkma Hattı</a></li>
+                  <li><a class="dropdown-item" href="../urun/etiketleme-makineleri.html">Etiketleme Hattı</a></li>
+                </ul>
+
+              <a href="../projeler.html" style="text-decoration: none !important; color: #FFFFFF;" ><li class="list-eleman">Projeler</li></a>
+              <a href="../catalog.html" style="text-decoration: none !important; color: #FFFFFF;" ><li class="list-eleman">Katalog</li></a>
+              <a href="../iletisim.html" style="text-decoration: none !important; color: #FFFFFF;"><li class="list-eleman">İletişim</li></a>
+            </ul>
+          </div> 
+          <div class="col-7" style="text-align: right; padding-right: 10%;">
+            <h5 style="color: #007cb0; text-shadow: 2px 1px 1px #007bb07e;">İLETİŞİM</h5>
+            <h6><br>Fevziçakmak Mah. <br> Teksan Sanayi Sit. 10758. Sokak 25/F <br>Karatay / KONYA / TÜRKİYE<br>
+              <br>+90 (332) 248 00 42<br>
+              <br>info@argesta.com.tr</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <hr class="footer-border">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 footer-logo">
+            <img src="../img/logo/logo3.png" alt="Argesta Logo" title="Argesta Logo" style="height: 60px;">
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" id="footer-icon">
+            <div class="footer-links">
+              <a href="https://www.facebook.com/argestamakine42/" rel=”nofollow” target="_blank" style="text-decoration: none !important; color: #FFFFFF;"><i class="fab fa-facebook-square fa-lg color"></i></a>
+              <a href="https://www.instagram.com/argestamakine/" rel=”nofollow” target="_blank" style="text-decoration: none !important; color: #FFFFFF;"><i class="fab fa-instagram-square fa-lg color"></i></a>
+              <a href="https://twitter.com/argestamakine" rel=”nofollow” target="_blank" style="text-decoration: none !important; color: #FFFFFF;"><i class="fab fa-twitter-square fa-lg color"></i></a>
+              <a href="https://www.youtube.com/c/argestamakine" rel=”nofollow” target="_blank" style="text-decoration: none !important; color: #FFFFFF;"><i class="fab fa-youtube-square fa-lg color"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>footer
+
+  <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2357.5005224836304!2d32.56817730015427!3d37.933100675244305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d08e39a0002f2b%3A0x1abc737e3fb5f042!2sArgesta!5e0!3m2!1str!2str!4v1638647514053!5m2!1str!2str" id="map" style="border:0;" loading="lazy"></iframe>-->
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <script src="JS/anasayfa.js"></script>
+</body>
+</html>
